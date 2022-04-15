@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- This is the first step in making the document responsive but scaling the items to screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--This the the link to the reset sheet-->
+    <link rel="stylesheet" href="./assets/reset.css">
+    <!-- This is the style links -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <!--This is a link to the fun Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono&family=Red+Hat+Mono&display=swap" rel="stylesheet">
+
+    <!-- This is the title-->
+    <title>Random Facts Quiz</title>
+</head>
+
+<body>
+    <!-- Link to highscores -->
+    <a href="HighScores.html">View Highscores</a>
+    <!-- This is a wrapper -->
+    <div id="wrapper">
+        <!-- Div for timer -->
+        <div id="currentTime"></div>
+        <!-- Div for quiz content -->
+        <div id="questionsDiv">
+            <h1>Random Fact Quiz</h1>
+            <p>Try to answer the following random quiz questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <ul id="choicesUl"></ul>
+            <!-- Buttons -->
+            <button id="startTime">Start Quiz</button>
+        </div>
+
+    </div>
+
+
+    <script src="questions.js"></script>
+
+
+</body>
+
+</html>
