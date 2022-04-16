@@ -6,3 +6,8 @@ Link to deployed website: https://jrgartner.github.io/Timed-Coding-Quiz/index.ht
 Link to GitHub Code: https://github.com/jrgartner/Timed-Coding-Quiz
 
 Screenshots of deployed website:
+![Picture of the Homescreen](./assets/images/Homepage.png "Homescreen")
+
+![Picture of a question](./assets/images/Question.png "Question")
+
+![Picture of a the highscores page](./assets/images/HighScores.png "Highscores")
